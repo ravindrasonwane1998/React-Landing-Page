@@ -1,0 +1,23 @@
+.navbar{
+    position: fixed;
+}
+.skills img{
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    padding:5px;
+}
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.projects img{
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+}
+.contact img{
+    width: 50px;
+    height:50px;
+    border-radius: 100%;
+    color: light;
+}

@@ -1,305 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Bootstrap Landing Page</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-            <div class="container-fluid">
-                <img src="./img/back1.png" alt class=" rounded-2">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse " id="navbarSupportedContent" >
-                <ul class="navbar-nav  mb-2 mb-lg-0 float-end fs-5 ms-5 ">
-                  <li class="nav-item me-3">
-                    <a class="text-light nav-link "  aria-current="page" href="#home">Home</a>                  
-                </li>
-
-                <li class="nav-item me-3">
-                    <a class="text-light nav-link" href="#about">About </a>
-                </li>
-
-                <li class="nav-item me-3 ">
-                    <a class="text-light nav-link" href="#feedback">Feedback
-                    </a>
-                </li>
-
-                <li class="nav-item me-3">
-                    <a class="text-light nav-link" href="#contact">Contact
-                        Us </a>
-                </li>
-               
-                <li class="nav-item " id="service">
-                    <select class="nav-link bg-dark col-5 p-2 text-light border-0  border rounded">
-                        <option>Services</option>
-                        <option>SEO</option>
-                        <option> CONTENT MARKETING</option>
-                        <option> SOCIAL MEDIA MARKETING </option>
-                    </select>
-
-                </li>
-
-                <li class="text-light ">
-                    <i class="fa-brands fa-facebook  fs-1 ms-2"></i>
-                    <i class="fa-brands fa-square-twitter fs-1 ms-2"></i>
-                    <i class="fa-brands fa-instagram fs-1 ms-2"></i>
-                    <i class="fa-brands fa-whatsapp fs-5 ms-5"></i>+91
-                        8805946400          
-                </li>
-            <li class="text-light ms-5  fs-3">
-               <a href="reg.html"><i class="fa-regular fa-user text-light"></i></a> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Landing Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary ">
+      <div class="container-fluid navbar bg-dark mb-5">
+        <img
+          src="./img//Ravindra Sonwane photo original.jpg"
+          alt
+          class="border rounded-5"
+        />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 float-end fs-5 ms-5">
+            <li class="nav-item me-3">
+              <a class="text-light nav-link" aria-current="page" href="#"
+                >Home</a
+              >
             </li>
-            </ul>
-              </div>
-            </div>
 
-          </nav>
+            <li class="nav-item me-3">
+              <a class="text-light nav-link" href="#about">About </a>
+            </li>
 
+            <li class="nav-item me-3">
+              <a class="text-light nav-link" href="#projects">Projects </a>
+            </li>
 
-        <div class="container  mt-5  w-100 p-3 mb-5 ">
-            <h1 class="text-center m-5 text-warning pd-5">MEET DEOGIRI DIGITAL
-                MARKETING.COM </h1>
-            <div class="d-flex justify-content-center ">
-                <img src="./img/digta.jpeg" alt
-                    class="w-50 border rounded-circle">
-                <img src="./img/digitalconcepts.png" alt
-                    class="w-50 border rounded-circle">
-            </div>
+            <li class="nav-item me-3">
+              <a class="text-light nav-link" href="#contact">Contact Us </a>
+            </li>
+
+            
+            </li>
+          </ul>
         </div>
-        <div
-            class="text-center  bg-dark container shadow border rounded-5 fst-normal fs-5 mt-5 p-5">
-            <p class="text-success">We are Providing The Best Digital Marketing
-                Services to the various organisations.
-                Peoples are very happy from our services They are giving good
-                responses and vaious opportunities again to us
-                Now We are giving services to the all over the world .
-                <h1 class="mt-5 text-secondary">We’ve been chosen by the best</h1>
-                <hr class=" mx-auto">
-                <img src="./img/companies.PNG" alt
-                    class="w-100 border rounded-5">
-                <p class="mt-2 text-primary">DigitalMarketing.com advises many
-                    of
-                    the most successful and fastest growing companies in the
-                    world
-                    including Fortune 500 and Inc. Magazine’s 500/5000 Fastest
-                    Growing Companies.</p>
-            </div>
+      </div>
+    </nav>
 
-            <div class="benefit d-flex m-3 ">
-                <div class="bg-light border rounded border-success col-8 m-5 ">
-                    <h1 class="text-center text-success fw-bold m-5 ps-3">Scale
-                        your
-                        firm with experience that can benefit you</h1>
-                    <h5
-                        class="text-center  text-danger fw-normal mt-3 ps-5 pe-5 ms-5 ">Deogiri
-                        Digital Marketing has completed more than 1000 project
-                        of
-                        client and earn 100000$ Revenue since 2019 </h5>
-                    <ul class="fs-5 m-5">
-                        <li><strong> Explore our</strong> <span
-                                class="text-primary">Methodology
-                                section</span> to discover on unique process to
-                            help
-                            you achieve your goals.</li>
-                        <li><strong>Study our </strong> <span
-                                class="text-primary">
-                                Client reviews </span>area to see what clients
-                            like
-                            you have experience first hand our results.</li>
-                        <li><strong>Discover our </strong> <span
-                                class="text-primary"> Solutions to learn </span>the
-                            ways we can deliver for you.</li>
-                        <li><strong>Secure a </strong> <span
-                                class="text-primary">
-                                Free site analysis </span> with one of our
-                            acclaimed
-                            digital marketing thought leader.</li>
-                    </ul>
-                </div>
-                <div class="bg-light thought text-center  mt-4 col-3 p-3 ">
-                    <p class="fw-bold fs-4">THOUGHT LEADERS IN
-                        <span class="text-danger">GLOBAL OUTLETS</span> </p>
-                    <p class="fw-bolder ps-5 pe-5">DigitalMarketing.com’s
-                        experts
-                        provide thought leadership to Global Media Outlets.</p>
-                    <div>
-                        <img src="./img/street.PNG" alt>
-                        <img src="./img/cnbc.PNG" alt>
-                        <img src="./img/cnw.PNG" alt>
-                        <img src="./img/observer.PNG" alt>
-                        <img src="./img/fox.PNG" alt>
-                        <img src="./img/gt.PNG" alt>
-                        <img src="./img/icrs.PNG" alt>
-                        <img src="./img/investor.PNG" alt>
-                    </div>
-                </div>
-            </div>
+    <div class="container mt-5 w-100 p-3 mb-5 d-flex bg-secondary rounded pt-5">
+      <div class="w-50 ">
+        <img
+          src="./img/ravindrassonwanephoto.JPG"
+          alt=""
+          class="border rounded-start border-dark"
+        />
+      </div>
+      <div class="w-50" >
+        <h1 class="text-warning">
+          Hello,
+          <p>My name is Ravindra Sonwane</p>
+        </h1>
+        <div class="bg-primary-subtle p-3 rounded" id="about">
+          <h2 class="text-center text-primary">About Me</h2>
+          <p>
+            Hello Sir/Mam, My Name is Ravindra Sonwnae. I am a Trainee with 6 months
+            of experience in KSJ Technology Pvt Ltd . My main skills include (ReactJs, HTML5,
+            CSS3, Bootstrap, Java Script,ASP.Net,C#,NodeJs). I am passionate about Coding and I'm
+            looking forward to full stack developer.
+            <p> I am from Maharashtra
+            ,Aurangabad.I have completed my post-graduation in
+            MCA from Dr. Babasaheb Ambedkar Marathwada  University
+            Aurangabad.before that I had Completed BCA from Deogiri college Aurangabad.</p>
+            I am loyal to my work.Coming to my hobbies, My hobbies are Travelling,Trekking, Swimming and I like to reading books.Also I'm an Active Voluteer of an NGO Vivekanand Kendra Kanykumari. Where we do the social activties like Helping to poor people. ive Education to Remote Area. Yoga Camps in the society.Awareness in the peoples. That's all about me. Thank you.
+          </p>
+        </div>
+      </div>
+    </div>
+   
 
-            <div
-                class="container about shadow-lg p-3 mb-5 bg-white border border-dark rounded w-100 "
-                id="services">
-                <h3 class="fs-1 text-center">Our Services </h3>
-                <div class="d-flex col-11 m-5 rounded-circle">
-                    <div class="col-3">
-                        <img src="./img/sme.jpeg" alt
-                            class="rounded-circle w-100 ">
-                        <p class="text-center">SOCIAL MEDIA MARKETING</p>
-                    </div>
-                    <div class="col-3">
-                        <img src="./img/seo.png" class="w-100" alt>
-                        <p class="text-center">SEARCH ENGINE MARKETING</p>
-                    </div>
+    <div class="benefit d-flex w-100">
+      <div class="education bg-secondary border rounded border-success  m-5 w-50">
+        <h1 class="text-center text-light fw-bold m-5 ps-3">
+         Educational Qualification
+        </h1>
 
-                    <div class="col-3">
-                        <img src="./img/payperclik.jpeg" class="w-100" alt>
-                        <p class="text-center">PAY PER CLICK</p>
-                    </div>
-                    <div class="col-3">
-                        <img src="./img/content.jpg" alt class="rounded w-100">
-                        <p class="text-center">CONTENT MARKETING</p>
-                    </div>
-                </div>
-            </div>
+        <ul class="fs-5 m-3">
+          <li>
+            <strong>     <span class="text-warning">MCA  2021-2023  </span>  
+            <p class="text-light">College Name :Dr Babasaheb Ambedkar Marathwada University Aurangabad</p>     </strong>
+          </li>
+          <li>
+            <strong>     <span class="text-warning">BCA  2018-2021  </span>   <p class="text-light">
+                College Name: Deogiri College Aurangabad
+            </p></strong>
+          </li>
+          <li>
+            <strong>     <span class="text-warning">HSC : 2016-2017  </span>   </strong>
+          </li>
+          <li>
+            <strong>     <span class="text-warning">MCA :2014-2015  </span>   </strong>
+          </li>
+        </ul>
+      </div>
+      <div class="bg-dark  text-center mt-4 p-3">
+        <h3>My Skills</h3>
+        
+        <div class="skills">
+          <img src="./img/angular.png"  alt />
+          <img src="./img/asp.net.jpeg" alt />
+          <img src="./img/bootstrap.jpeg" alt />
+          <img src="./img/css3.png" alt />
+          <img src="./img/github.png" alt />
+          <img src="./img/html.png" alt />
+          <img src="./img/javascript.png" alt />
+          <img src="./img/jquery.png" alt />
+          <img src="./img/node.png" alt />
+        </div>
+        <div class="bg-secondary m-3 w-50 border rounded-pill">
+          
+            <a href="./pdf/Ravindra sonwane resume (3).pdf" target="_blank" download>
+              <img src="./img/pdf.png" class="rounded-circle m-2" alt="W3Schools" width="100" height="100">
+              <p class="text-light fs-5">Click here to  Download My Resume</p>
+            </a>
+      </div>
+      </div>
+      
+    </div>
 
-            <div
-                class="container about  d-flex shadow-lg p-3 mb-5 bg-white rounded w-100 border border-success"
-                id="about">
-                <div class="bg-light p-5">
-                    <img src="./img/about.png" class="w-100" alt>
-                </div>
-                <div class="col-5  bg-info p-5 w-50 ">
-                    <h2 class="text-center text-danger  ">About Us</h2>
-                    <h3> We are the world’s most significant leading
-                        agency for digital marketing, content
-                        marketing, and SEO since 2003.</h3>
-                    <ul class="fs-5 text-muted">
-                        <li>We’ve helped to substantially grow many of the most
-                            successful and fastest growing brands in the world
-                            that
-                            include Ferrari, AT&T, and many enterprise and small
-                            to
-                            midsize businesses.</li>
-                        <li>We produce outstanding results. Our methodology is
-                            proven and accountable, with hundreds of successful
-                            companies and validated by over 35 client
-                            testimonials
-                            and an additional 51 case studies, many who will
-                            share
-                            how their business increased by 100-1135%.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="container about shadow-lg p-3 mb-5  rounded"
-                id="contact_us">
-                <p class="fs-2 text-Success fwt-bold text-center text-success">Schedule
-                    your FREE consultation now</p>
-                <p class="fs-2 text-primary fwt-bold text-center"> CONTACT
-                    DIGITAL
-                    MARKETING</p>
+    <div
+      class="container  about shadow-lg p-3 mb-5 bg-secondary border border-dark rounded w-100"
+      id="projects">
+      <h3 class="fs-1 text-center text-light bg-secondary">My Projects</h3>
+      <div class=" projects d-flex  ">
+        <div class=" col-4 embed-responsive-28by9  ps-5">          
+          <iframe class="embed-responsive-item" src="./video/Landing Page (1).mp4"></iframe>
+          <p class="text-center">Animated Landing Page</p>
+          <div class=" ms-5">
+            <a href="https://aminated-landing-page.vercel.app/"> <button class="border  rounded-pill p-2 ps-2 btn btn-primary"></a> View Page</button>
+              <a href="https://github.com/ravindrasonwane1998/Aminated-Landing-Page"> <button class="border rounded-pill p-2 btn btn-success">View Code</button></a> 
+          </div>          
+        </div>
+  
+        <div class="col-4   ps-5">
+            <iframe class="embed-responsive-item" src="./video/Bootstrap Landing Page.mp4"></iframe>       
+               <p class="text-center">React Landing Page</p>
+          <div class=" ms-5 ">
+                <a href=""><button class="border  rounded-pill p-2 btn btn-primary"> View Page</button></a> 
+                <a href=""><button class="border rounded-pill p-2 btn btn-success"> View Source Code</button></a>
+          </div>          
+        </div>
 
-                <div class="d-flex bg-dark ">
-                    <div class="w-50 ms-5 m-5 ">
-                        <img src="./img/digta.jpeg" alt class=" w-100  ">
-                    </div>
-                    <div class=" mt-5 w-50 ">
-                        <form>
-                            <div class="col-8 d-flex  ">
-                                <input type="text" class="form-control"
-                                    placeholder="First name *">
-                                <input type="text" class="form-control ms-2"
-                                    placeholder="Last name *">
-                            </div>
-                            <div class="form-group col-md-8">
-                                <input type="email" class="form-control mt-3"
-                                    id="email"
-                                    placeholder="Email *">
-                            </div>
-                            <div class="form-group col-md-8">
-                                <input type="tel" class="form-control mt-3"
-                                    id="phone" placeholder="Phone No. *"
-                                    maxlength="10">
-                            </div>
-                            <div class="form-group col-md-8">
-                                <textarea
-                                    class="form-control  mt-3 col-3 ht-2 ms-0 "
-                                    id="text"
-                                    placeholder="Description of Services * ">
-                                </textarea>
-                            </div>
-                            <button type="submit"
-                                class="btn btn-success mt-3 ps-3 pe-3">Submit</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <footer class="bg-dark text-white pt-5 pb-4" id="contact">
-                <div class="container  text-md-left">
-                    <div class="row  text-md-left">
-                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                            <img src="./img/back1.png" alt class="m-1 rounded-2">
-                            <h3> Deogiri Digital Marketing</h3>
-                            <p>Deogiri Digital Marketing Company is the best
-                                plateform for the start up and companies to get
-                                opportunity in the market</p>
-                        </div>
-                        <div
-                            class="col-md-3 col-lg-2 col-xl-2 text-light mx-auto mt-3">
-                            <h5
-                                class="text-uppercase mb-4 font-weight-bold text-warning">Services</h5>
-                            <p><a class="text-decoration-none text-light"
-                                 href="seo.html"> SEO</a></p>
-                            <p><a class="text-decoration-none text-light" >
-                                    SEM</a></p>
-                            <p><a class="text-decoration-none text-light" >
-                                    CONTENT MARKETING </a></p>
-                            <p><a class="text-decoration-none text-light" >
-                                    E-MAIL MARKETING</a> </p>
-                            <p><a class="text-decoration-none text-light" >PPC
-                                </a> </p>
-                        </div>
+          <div class="col-4  ps-5">
+            <iframe class="embed-responsive-item" src="./video/Alignor Games.mp4"></iframe>
+          <p class="text-center">Aligner Game</p>
+          <div class="ms-5  ">
+                <a href="https://ravindrasonwane1998.github.io/Alignor-Game/"><button class="border  rounded-pill p-2 btn btn-primary"> View Page</button></a> 
+               <a href="https://github.com/ravindrasonwane1998/Alignor-Game/"><button class="border rounded-pill p-2 btn btn-success"> View Source Code</button></a> 
+          </div>          
+        </div>            
+      </div>
+    </div>
 
-                        <div
-                            class="col-md-3 col-lg-2 col-xl-2 text-white mx-auto mt-3">
-                            <h5
-                                class="text-uppercase mb-4 font-weight-bold text-warning">Useful
-                                Links</h5>
-                            <p><a class="text-decoration-none text-light"
-                                    href="seo.html"> Your Account</a></p>
-                            <p><a class="text-decoration-none text-light" >
-                                    Become an Affiliate</a></p>
-                            <p><a class="text-decoration-none text-light" >
-                                    Shipping Rates </a></p>
-                            <p><a class="text-decoration-none text-light" >
-                                    Help</a> </p>
-                        </div>
-
-                        <div
-                            class="col-md-3 col-lg-2 col-xl-2 text-white mx-auto mt-3">
-                            <h5
-                                class="text-uppercase mb-4 font-weight-bold text-warning ">Contact</h5>
-                            <p><a class="text-decoration-none text-light"
-                                    href="seo.html">20,Cannaught Place,Cidco,
-                                    Chha.Sambhajinagar</a></p>
-                            <p>
-                                <i class="fa-brands fa-whatsapp "></i> +91
-                                8805946400
-                            </p>
-                            <i class="fa-brands fa-facebook ms-2 fs-1"></i>
-                            <i class="fa-brands fa-square-twitter ms-2 fs-1"></i>
-                            <i class="fa-brands fa-instagram ms-2 fs-1"></i>
-
-                        </div>
-                    </div>
-                </div>
-            </footer>
-        </body>
-    </html>
+    <div class=" contact bg-secondary text-light p-3 " id="contact"> 
+        <p class="fs-2 text-primary fwt-bold text-center text-white pt-5 pb-4">
+          CONTACT WITH ME
+        </p>  
+        <div class="contact-2">
+         <div>  <a href="http://ravindrasonwane1998@gmail.com"  target="_blank" class="text-decoration-none text-light fs-4"  rel="noopener noreferrer"><img src="./img/mail.png" class="col-4 m-2" alt="">  ravindrasonwane1998@gmail.com</a></div>
+         <div> <a href="http://20,Cannaught Place,Cidco, Chha.Sambhajinagar" target="_blank" " class="text-decoration-none text-light fs-4" rel="noopener noreferrer"><img src="./img/location.jpg" class="col-4 m-2"  alt="">  Pralhadnagar, Ahmedabad</a>  </div>
+          <div> <a href="http://https://github.com/ravindrasonwane1998 "  target="_blank" class="text-decoration-none text-light fs-4" rel="noopener noreferrer"> <img src="./img/github.png" class="col-4 m-2"  alt="">https://github.com/ravindrasonwane1998 </a> </div> 
+        <div> <a href="https://www.linkedin.com/in/ravindra-sonwane-425556191/ "target="_blank" class="text-decoration-none text-light fs-4"> <img src="./img/linkedin.png" class="col-4 m-2"  alt="">https://www.linkedin.com/in/ravindra-sonwane-425556191/</a> </div> 
+        <div class="fs-2"> <img src="./img/call.webp" class="col-4 m-2"  alt="">8805946400 </a> </div> 
+    </div>
+  </body>
+</html>
